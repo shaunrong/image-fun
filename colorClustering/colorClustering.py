@@ -14,6 +14,7 @@ __email__ = 'rongzq08@gmail.com'
 def color_clustering(image, clusters):
     """
     clustering the main colors in a picture with KMeans algorithm.
+    example: run "python colorClustering.py -i 'tuotuo.JPG' -c 6"
     :param image: file path
     :param clusters: number of clusters in that picture
     :return: tow images shown using matplotlib
