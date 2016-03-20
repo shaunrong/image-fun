@@ -4,7 +4,10 @@ import cPickle
 import cv2
 from imageSearchEngine import Searcher
 import argparse
-import numpy as np
+
+"""
+This script provides a interface to query over the image search engine
+"""
 
 __author__ = 'Shaun Rong'
 __version__ = '0.1'
@@ -31,4 +34,3 @@ if __name__ == '__main__':
         result = cv2.imread(path)
         cv2.imshow('Results {}'.format(j), result)
         cv2.waitKey(0)
-
